@@ -103,3 +103,37 @@ The final framework admits a self-stress with the target ratio **2:3:2** on edge
 **Minimization · Weighted sum of the three target edges’ squared lengths**
 
 <img src="figure-5c-to-5f-objective.png" alt="The weighted sum of the squared lengths of edges 3–5, 2–6, and 3–6 decreases during optimization" width="500">
+
+## Figure 6 · Fold and third-order rigidity
+
+Each clip sweeps the angle α from 3.5 to 5.5 radians at a fixed distance between the pinned vertices P₁ and P₄. The dashed red bar joins P₂ and P₅. The charts show its length as a function of α.
+
+### Before the fold
+
+| Start of sweep | End of sweep |
+| --- | --- |
+| <img src="figure-6-before-fold-start.png" alt="Linkage before the fold at the start of the angle sweep" width="220"> | <img src="figure-6-before-fold-end.png" alt="Linkage before the fold at the end of the angle sweep" width="220"> |
+
+With the pinned vertices 1 unit apart, the curve has a local maximum and a local minimum, as in Figure 6(c). [Watch the MATLAB animation (MP4)](figure-6-before-fold-matlab.mp4)
+
+<img src="figure-6-before-fold-curve.png" alt="Free-edge length versus angle, with a marked local maximum and local minimum" width="500">
+
+### At the fold
+
+| Start of sweep | Figure 6(e) · Stationary configuration | End of sweep |
+| --- | --- | --- |
+| <img src="figure-6-at-fold-start.png" alt="Linkage at the fold distance, at the start of the angle sweep" width="220"> | <img src="figure-6-at-fold-critical.png" alt="Third-order rigid linkage at the stationary inflection" width="220"> | <img src="figure-6-at-fold-end.png" alt="Linkage at the fold distance, at the end of the angle sweep" width="220"> |
+
+At a pin separation of approximately 0.49815, the two extrema merge at α ≈ 4.45508. The first and second derivatives of the free-edge length vanish there, and the third derivative is nonzero. The stationary inflection in Figure 6(f) corresponds to the third-order rigid framework in Figure 6(e). [Watch the MATLAB animation (MP4)](figure-6-at-fold-matlab.mp4)
+
+<img src="figure-6-at-fold-curve.png" alt="Free-edge length versus angle, with the stationary inflection marked by a diamond" width="500">
+
+### After the fold
+
+| Start of sweep | End of sweep |
+| --- | --- |
+| <img src="figure-6-after-fold-start.png" alt="Linkage after the fold at the start of the angle sweep" width="220"> | <img src="figure-6-after-fold-end.png" alt="Linkage after the fold at the end of the angle sweep" width="220"> |
+
+With the pinned vertices 0.4 units apart, the free edge length increases throughout the angle sweep. [Watch the MATLAB animation (MP4)](figure-6-after-fold-matlab.mp4)
+
+<img src="figure-6-after-fold-curve.png" alt="Free-edge length increases throughout the illustrated angle range" width="500">
