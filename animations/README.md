@@ -58,11 +58,11 @@ The video begins at Figure 3(e) and shows the first 200 optimization steps towar
 
 ## Figure 4(a–b) · Midpoint constraints
 
-| Figure 4(a) · Initial condition | Figure 4(b) · Final state |
-| --- | --- |
-| <img src="figure-4a-midpoint-initial.png" alt="Flexible midpoint-constrained framework with the free bar between vertices 5 and 9 dashed in red" width="220"> | <img src="figure-4b-midpoint-optimized.png" alt="Prestress-stable midpoint-constrained framework after optimization" width="220"> |
+| Unperturbed · Concentric squares | Figure 4(a) · Perturbed initial condition | Figure 4(b) · Final state |
+| --- | --- | --- |
+| <img src="figure-4-unperturbed-squares.png" alt="Concentric squares with the inner square rotated 45 degrees and connecting bars perpendicular to the outer sides" width="220"> | <img src="figure-4a-midpoint-initial.png" alt="Flexible midpoint-constrained framework with the free bar between vertices 5 and 9 dashed in red" width="220"> | <img src="figure-4b-midpoint-optimized.png" alt="Prestress-stable midpoint-constrained framework after optimization" width="220"> |
 
-The initial framework has an outer square and an inner quadrilateral. The optimization shortens the bar between vertices 5 and 9 while preserving the other bar lengths and keeping the four outer-edge vertices at their midpoints. The final framework is prestress stable. [Watch the MATLAB animation (MP4)](figure-4a-to-4b-matlab.mp4)
+In the unperturbed framework, the inner and outer squares share a center, and the inner square is rotated 45° relative to the outer square. Each connecting bar meets the corresponding outer side at its midpoint and at a right angle. The animation starts from the perturbed inner quadrilateral in Figure 4(a) and shortens the bar between vertices 5 and 9 while preserving the other bar lengths and the four midpoint constraints. The final framework is prestress stable. [Watch the MATLAB animation (MP4)](figure-4a-to-4b-matlab.mp4)
 
 **Minimization · Squared length of edge 5–9**
 
