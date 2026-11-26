@@ -4,7 +4,7 @@
 
 | Regular hexagon · Unperturbed | Figure 2(a) · Perturbed initial condition | Figure 2(b) · Final state |
 | --- | --- | --- |
-| <img src="figure-2-regular-hexagon.png" alt="Regular hexagon with three red diagonals in tension, six blue perimeter bars in compression, and two pinned vertices" width="220"> | <img src="figure-2a-perturbed-hexagon.png" alt="Perturbed hexagon with the free diagonal dashed in red" width="220"> | <img src="figure-2b-optimized-hexagon.png" alt="Optimized hexagon with self-stress colors and pinned flex arrows" width="220"> |
+| <img src="figure-2-regular-hexagon-self-stress.png" alt="Regular hexagon with three red diagonals in tension, six blue perimeter bars in compression, and two pinned vertices" width="220"> | <img src="figure-2a-perturbed-hexagon.png" alt="Perturbed hexagon with the free diagonal dashed in red" width="220"> | <img src="figure-2b-optimized-hexagon.png" alt="Optimized hexagon with self-stress colors and pinned flex arrows" width="220"> |
 
 In the self-stress shown on the regular hexagon, all three diagonals are in tension (red) and the six perimeter bars are in compression (blue). The animation starts from the perturbed hexagon in Figure 2(a). Maximizing the length of the diagonal between vertices 1 and 4 while keeping the other bar lengths fixed gives the prestress-stable framework in Figure 2(b). [Watch the MATLAB animation (MP4)](figure-2a-to-2b-matlab.mp4)
 
